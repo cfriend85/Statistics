@@ -97,3 +97,15 @@ print(times_hist)
 
 #OUTPUT: (array([101, 231, 213, 455]), array([ 0.,  6., 12., 18., 24.])) first array is a count of how many in each bin, second is the ranges of each bin.
 #In this case the last bin - hours 6-12 are the busiest times for the store.
+
+#Example explanation of distribution of a dataset:
+
+#This histogram displays the distribution of chest pain cost for over 2,000 hospitals across the United States. The average and median costs are $16,948 
+# and $14,659.6, respectively. Given that the data is unimodal, with one local maximum and a right skew, 
+# the fact that the average is greater than the median, matches our expectation.
+# #The range of costs is very large, $78,623, with the smallest cost equal to $2,459 and the largest cost equal to $81,083.
+# There is one hospital, Bayonne Hospital Center, that charges far more than the rest at $81,083.
+
+
+#Nice work, the long tail to the right of the distribution indicates that it is skewed to the right, 
+# and will make the mean greater than the median of the distribution.

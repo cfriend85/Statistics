@@ -77,7 +77,7 @@ teacher_one_variance = np.var(teacher_one_grades)
 teacher_two_variance = np.var(teacher_two_grades)
 
 
-#IGNORE THE CODE BELOW HERE
+
 plt.hist(teacher_one_grades, alpha = 0.75, label = "Teacher 1 Scores", bins = 7)
 plt.hist(teacher_two_grades, alpha = 0.5, label = "Teacher 2 Scores", bins = 30)
 plt.title("Student test grades in two different classes")
