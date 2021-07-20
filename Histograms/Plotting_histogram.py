@@ -9,7 +9,6 @@ plt.show()
 
 
 # Import packages
-import codecademylib
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
@@ -32,7 +31,6 @@ plt.show()
 
 # Same as before but switches bins to 24 so that you have one hour increments instead of six hour blocks.
 # Import packages
-import codecademylib
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
